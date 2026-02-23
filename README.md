@@ -73,14 +73,12 @@
 | 📏 **KNN** | `sim` | 0.549 | 0.478 | 0.511 |
 | 📏 **KNN** | `não` | 0.820 | 0.858 | 0.838 |
 
-<h3>Matrizes de Confusão</h3>
-<div align="center">
-  <img src="Assets/Images/matriz_confusao_KNN.png" width="600" alt="Matriz_KNN">
-</div>
-<div align="center">
-  <img src="Assets/Images/matriz_confusao_DT.png" width="600" alt="Matriz_DecisionTree">
-</div>
 
+<div align="center">
+  <h3>Matrizes de Confusão</h3>
+      <img src="Assets/Images/matriz_confusao_KNN.png" width="45%" alt="Matriz_KNN">
+      <img src="Assets/Images/matriz_confusao_DT.png" width="45%" alt="Matriz_DecisionTree">
+</div>
 
 <p>Na análise de interpretabilidade das variáveis mais importantes (<em>Feature Importance</em>), os modelos apresentaram estratégias diferentes de decisão:</p>
 
@@ -102,7 +100,7 @@
   <h3>Estrutura da Árvore de Decisão Gerada</h3>
   
   <div align="center">
-  <img src="Assets/Images/arvore_de_decisao.png" width="600" alt="DecisionTree">
+  <img src="Assets/Images/arvore_de_decisao.png" width="100%" alt="DecisionTree">
 </div>
 
 
