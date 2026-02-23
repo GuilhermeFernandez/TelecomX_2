@@ -74,34 +74,37 @@
 | 📏 **KNN** | `não` | 0.820 | 0.858 | 0.838 |
 
 <h3>Matrizes de Confusão</h3>
-
+<div align="center">
+  <img src="Assets/Images/matriz_confusao_KNN.png" width="600" alt="Matriz_KNN">
+</div>
+<div align="center">
+  <img src="Assets/Images/matriz_confusao_DT.png" width="600" alt="Matriz_DecisionTree">
+</div>
 
 
 <p>Na análise de interpretabilidade das variáveis mais importantes (<em>Feature Importance</em>), os modelos apresentaram estratégias diferentes de decisão:</p>
 
 <ul>
-  <li>🌳 <strong>Árvore de Decisão:</strong> Altamente pragmática. Focou esmagadoramente em três fatores principais (Contrato Mensal, Tempo de Permanência e Internet Fibra Ótica), criando regras rígidas de corte.</li>
-  <li>📏 <strong>KNN:</strong> Avaliação holística. Apresentou uma distribuição mais equilibrada, considerando o pacote de serviços como um todo (Segurança Online, Múltiplas Linhas) e as Cobranças Totais para encontrar perfis similares.</li>
-</ul>
+  <li>🌳 <strong>Árvore de Decisão:</strong> Focou esmagadoramente em três fatores principais (Contrato Mensal, Tempo de Permanência e Internet Fibra Ótica), criando regras rígidas de corte.</li>
 
-<ul>
-  <li>🌳 <strong>Árvore de Decisão:</strong> Altamente pragmática. Focou esmagadoramente em três fatores principais (Contrato Mensal, Tempo de Permanência e Internet Fibra Ótica), criando regras rígidas de corte.</li>
-  <li>📏 <strong>KNN:</strong> Avaliação holística. Apresentou uma distribuição mais equilibrada, considerando o pacote de serviços como um todo (Segurança Online, Múltiplas Linhas) e as Cobranças Totais para encontrar perfis similares.</li>
+  <li>📏 <strong>KNN:</strong> Apresentou uma distribuição mais equilibrada, considerando o pacote de serviços como um todo (Segurança Online, Múltiplas Linhas) e as Cobranças Totais para encontrar perfis similares.</li>
 </ul>
 
 <div align="center">
   <h3>Visualização das Importâncias (Feature Importance)</h3>
   <p><i>Comparativo: Árvore de Decisão x KNN</i></p>
   
-  <img src="COLE_O_LINK_DO_SEU_GRAFICO_DT_AQUI.png" width="45%" alt="Importância Árvore de Decisão">
-  <img src="COLE_O_LINK_DO_SEU_GRAFICO_KNN_AQUI.png" width="45%" alt="Importância KNN">
+  <img src="Assets/Images/variaveis_DT.png" width="45%" alt="Importância Árvore de Decisão">
+  <img src="Assets/Images/variaveis_KNN(1).png" width="45%" alt="Importância KNN">
 </div>
 
 <div align="center">
   <h3>Estrutura da Árvore de Decisão Gerada</h3>
   
-  <img src="COLE_O_LINK_DA_ARVORE_AQUI.png" width="90%" alt="Árvore de Decisão">
+  <div align="center">
+  <img src="Assets/Images/arvore_de_decisao.png" width="600" alt="DecisionTree">
 </div>
+
 
 <h2>🚀 Como Rodar este Projeto</h2>
 <p>Siga os passos abaixo para testar os modelos localmente na sua máquina:</p>
