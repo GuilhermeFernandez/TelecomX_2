@@ -95,7 +95,7 @@
   <p><i>Comparativo: Árvore de Decisão x KNN</i></p>
   
   <img src="Assets/Images/variaveis_DT.png" width="45%" alt="Importância Árvore de Decisão">
-  <img src="Assets/Images/variaveis_KNN(1).png" width="45%" alt="Importância KNN">
+  <img src="Assets/Images/variaveis_KNN.png" width="45%" alt="Importância KNN">
 </div>
 
 <div align="center">
